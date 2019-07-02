@@ -23,8 +23,9 @@
                         <div class="col-12">
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Name (Required)</label>
-                                <input id="name" type="name" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="John Smith">
+                                <input id="name" type="name" class="form-control validate" placeholder="John Smith">
+                                <label for="exampleFormControlInput1">Photo (Optional)</label>
+                                <input id="link" type="url" class="form-control">
                             </div>
                         </div>
                     </div>
@@ -186,7 +187,7 @@
 
         function formValidation() {
             var isValid = true;
-            $('.form-control').each(function () {
+            $('.validate').each(function () {
                 if ($(this).val() === '') {
                     isValid = false;
                 };
@@ -200,7 +201,8 @@
 
                 var data = {
                     name: $("#name").val().trim(),
-                    scores: [$("#choice1").val(), $("#choice2").val(), $("#choice3").val(), $("#choice4").val(), $("#choice5").val(),
+                    photo: $("#link").val().trim(),
+                    score: [$("#choice1").val(), $("#choice2").val(), $("#choice3").val(), $("#choice4").val(), $("#choice5").val(),
                     $("#choice6").val(), $("#choice7").val(), $("#choice8").val(), $("#choice9").val(), $("#choice10").val(),]
                 };
 

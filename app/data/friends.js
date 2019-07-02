@@ -2,7 +2,7 @@ var friends = [
     {
         name: "Mr. Whiskers",
         photo: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
-        score: [1,1,1,1,1,1,1,1,1,1]
+        score: [3,2,2,4,5,2,1,3,4,3]
     },
     {
         name: "Teenage Turtle",
@@ -12,7 +12,7 @@ var friends = [
     {
         name: "Widdle Kitty",
         photo: "https://i.ytimg.com/vi/eNeRyBUCGV4/maxresdefault.jpg",
-        score: [3,3,3,3,3,3,3,3,3,3]
+        score: [4,4,4,2,2,5,2,5,2,1]
     },
     {
         name: "Fluffy",

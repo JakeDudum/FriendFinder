@@ -13,7 +13,7 @@ module.exports = function(app) {
     for (var i = 0; i < friends.length; i++) {
         var total = 0;
         for( var j = 0; j < friends[i].score.length; j++) {
-            total += Math.abs(req.body.scores[j] - friends[i].score[j]);
+            total += Math.abs(req.body.score[j] - friends[i].score[j]);
         }
         scores.push(total);
     }
@@ -27,6 +27,8 @@ module.exports = function(app) {
             smallest = scores[k];
         }
     }
+
+    friends.push(req.body);
 
     res.send(friends[smlIndex]);
   });
