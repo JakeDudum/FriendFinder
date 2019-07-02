@@ -28,6 +28,6 @@ module.exports = function(app) {
         }
     }
 
-    res.send(friends[smlIndex].name);
+    res.send(friends[smlIndex]);
   });
 };

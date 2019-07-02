@@ -1,43 +1,38 @@
 var friends = [
     {
-        name: "filler1",
+        name: "Mr. Whiskers",
+        photo: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
         score: [1,1,1,1,1,1,1,1,1,1]
     },
     {
-        name: "filler2",
-        score: [2,2,2,2,2,2,2,2,2,2]
+        name: "Teenage Turtle",
+        photo: "https://cdn.getyourguide.com/img/tour_img-1272843-148.jpg",
+        score: [1,5,3,3,2,1,4,1,2,3]
     },
     {
-        name: "filler3",
+        name: "Widdle Kitty",
+        photo: "https://i.ytimg.com/vi/eNeRyBUCGV4/maxresdefault.jpg",
         score: [3,3,3,3,3,3,3,3,3,3]
     },
     {
-        name: "filler4",
-        score: [4,4,4,4,4,4,4,4,4,4]
+        name: "Fluffy",
+        photo: "https://images.unsplash.com/photo-1516632664305-eda5d6a5bb99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+        score: [4,2,2,3,4,1,2,2,2,3]
     },
     {
-        name: "filler5",
+        name: "Mr. Good Boy",
+        photo: "https://www.petmd.com/sites/default/files/CANS_dogsmiling_379727605.jpg",
         score: [5,5,5,5,5,5,5,5,5,5]
     },
     {
-        name: "filler6",
-        score: [1,2,3,4,5,5,4,3,2,1]
+        name: "Long Neck",
+        photo: "https://www.theanimalspot.com/wp-content/uploads/2019/01/giraffesmall.jpg",
+        score: [4,2,3,1,2,3,1,2,3,2]
     },
     {
-        name: "filler7",
-        score: [5,4,3,2,1,1,2,3,4,5]
-    },
-    {
-        name: "filler8",
-        score: [1,2,3,1,2,3,1,2,3,1]
-    },
-    {
-        name: "filler9",
-        score: [3,2,1,3,2,1,3,2,1,3]
-    },
-    {
-        name: "filler10",
-        score: [2,4,1,3,5,2,4,1,3,5]
+        name: "Smol Pupper",
+        photo: "https://www.sciencenews.org/sites/default/files/2018/08/main/articles/082918_lh_crispr-beagles_feat_REV.jpg",
+        score: [2,5,1,3,5,2,3,3,1,4]
     }
 ];
 
